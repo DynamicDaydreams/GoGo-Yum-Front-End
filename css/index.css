@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Charmonman|Roboto+Condensed|Roboto+Mono|Roboto+Mono+bold|Monoton');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400');
+
+
+/* Top Text */
+                        .carousel-caption h5{
+                                text-align: center;
+                                font-family: "Rock Salt", Georgia, "Times New Roman", serif;
+                                font-size: 1em;
+                                color: #044754;
+                                text-shadow: #aec472;}
+                        .carousel-caption p{
+                                text-align: center;
+                                font-family: "Roboto Condensed", Georgia, "Times New Roman", serif;
+                                font-size: 1em;
+                                color: #044754;}
+                        .ggy{
+                               text-align: center;
+                               font-family: "Charmonman", Georgia, "Times New Roman", serif;
+                            }
+                        .ggy h1{
+                               text-align: center;
+                               font-family: "Roboto Condensed", Georgia, "Times New Roman", serif;
+                               font-size: 1.5em;
+                            }
+                        .ggy span{
+                               text-align: center;
+                               font-family: "Rock Salt", Georgia, "Times New Roman", serif;
+                               font-size: 1em;
+                               color: #aec472;
+                            }
+                        .carousel-inner > .item > img {
+                                margin: 0 auto;}
+/* Carousel-Steps */                               
+                        .carousel-caption {
+                                top: 0;
+                                bottom: auto;}
+                        .carousel-indicators{
+                                background-color: #aec472;}
+                        .carousel-control-prev-icon{
+                                background-color: #aec472;}
+                        .carousel-control-next-icon{
+                                background-color: #aec472;}
+                        
+/* Top Banner */
+                        .banner{
+                                margin-top: 300px;
+                                padding: 0;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 50vh;
+                                font-family: sans-serif;}
+                        .banner-image{
+                                background-image:
+                                linear-gradient(
+                                rgba(255, 255, 255, 0.85), 
+                                rgba(255, 255, 255, 0.25)), 
+                                url("bg.jpeg");
+                                background-size: cover;
+                                background-position: center;
+                                padding-top: 1em;
+                                padding-left: 1em;  
+                                position: relative;    
+                                padding-right: 1em;}
+                        .box{
+                                position: relative;
+                            }
+                        .box .content{
+                                position: relative;      
+                                background: rgba(255, 255, 255, 0.85);
+                                text-align: center;
+                                border: 4px solid #044754;}
+                        .box .content:before{
+                                content: '';
+                                position: absolute;
+                                top: 0;
+                                left: -100%;
+                                background: rgba(255, 255, 255, .1);
+                                transition: 0.5s;
+                                pointer-events: none;}
+                        .box:hover .content:before{
+                                 left: -50%;}
+                        .box .content .header-slogan{
+                                margin: 0 0 10px;
+                                padding: 0;
+                                color: #a6200d;}
+                        .box .content .header-paragraph{
+                                margin: 0;
+                                padding: 0;
+                                color: #a6200d;}
+                        .box span{
+                                position: absolute;
+                                top:0;
+                                left: 0;
+                                width: 800px;
+                                height: 400px;
+                                display: block;
+                                pointer-events: none;}
+                        .box span:before{
+                                content: '';
+                                position: absolute;
+                                width: 1200px;
+                                height: 10px;
+                                background: #fff;
+                                transform-origin: left;
+                                transition: 0.5s;}
+                        .box:hover span:before{
+                                transform: scaleX(0);}
+                        .box:hover span:nth-child(even):before{
+                                transform-origin: right;
+                                transition-delay: 0.5s;}
+                        .box span:nth-child(1){
+                                transform: rotate(0deg);}
+                        .box span:nth-child(2){
+                                transform: rotate(90deg);}
+                        .box span:nth-child(3){
+                                transform: rotate(180deg);}
+                        .box span:nth-child(4){
+                                transform: rotate(270deg);}
+                        
+/* Banner Typography */
+                        .header-text{
+                                font-family: "Bad Script", Georgia, "Times New Roman", serif;
+                                font-size: 2.5em;
+                                font-weight: bolder;
+                                color: #044754;
+                                text-shadow: 2px 2px #fff6dc;
+                                text-align: left;
+                                line-height: 1em;}
+                        .header-subtext{
+                                font-family: "Roboto Mono", Georgia, "Times New Roman", serif;
+                                font-size: 2em;
+                                font-weight: bolder;
+                                color: #044754;
+                                text-align: left;
+                                line-height: 1em;}
+                        .header-slogan{
+                                font-family: "Bad Script", Georgia, "Times New Roman", serif;
+                                font-size: 2 em;
+                                font-weight: bolder;
+                                color: #044754;
+                                text-shadow: 2px 2px #fff;
+                                text-align: left;
+                                line-height: 1em;}
+                        .header-slogan2{
+                                font-family: "Bad Script", Georgia, "Times New Roman", serif;
+                                font-size: 20 em;
+                                font-weight: bolder;
+                                color: #044754;
+                                text-align: left;
+                                line-height: 1em;}
+                        .header-li{
+                                font-family: "Roboto", Georgia, "Times New Roman", serif;
+                                font-size: 1.5em;
+                                color: #262626;
+                                text-shadow: 2px 2px #fff6dc;
+                                text-align: left;
+                                line-height: 1em;}
+                        .header-subject{
+                                font-family: "Roboto Mono", Georgia, "Times New Roman", serif;
+                                font-size: 2em;
+                                font-weight: bolder;
+                                color: #aec472;
+                                text-align: left;
+                                line-height: 1em;}
+                        .header-paragraph{
+                                font-family: "Roboto Mono", Georgia, "Times New Roman", serif;
+                                font-size: 1em;
+                                font-weight: bolder;
+                                color: #044754;
+                                text-align: justify;
+                                line-height: 1em;}
+/* Website Typography */
+                        p{
+                                font-family: "Robato mono", sans-serif;
+                                text-align: justify;
+                                color: #044754;
+                                font-size: 2em;}
+                        h1{
+                                font-family: "Poiret One", Georgia, "Times New Roman", serif;
+                                font-size: 3 em;
+                                font-weight: bolder;
+                                color: #044754;}
+                        h2{
+                                font-family: "Bad Script", Georgia, "Times New Roman", serif;
+                                font-size: 2.5em;
+                                font-weight: bolder;
+                                color: #044754;
+                                text-shadow: 2px 2px #fff6dc;
+                                text-align: center;}
+                        h3{
+                                font-family: "Charmonman", sans-serif;
+                                font-size: 2em;
+                                color: #aec472;
+                                text-align: center;
+                                letter-spacing: -.02em;
+                                text-shadow: 2px 2px #ffffff;}
+                        h4{
+                                font-family: "Roboto Condensed", sans-serif;
+                                font-style: bold; 
+                                font-size: 2em;
+                                color: #aec472;
+                                text-align: center;
+                                letter-spacing: -.02em;
+                                text-shadow: 2px 2px #ffffff;}                           
+                        h5{
+                                font-family: "Roboto Condensed", sans-serif;
+                                font-style: bold; 
+                                font-size: 2em;
+                                color: #262626;
+                                text-align: center;
+                                letter-spacing: -.02em;
+                                text-shadow: 2px 2px #ffffff;}
+                        h6{
+                                font-family: "Roboto Mono", sans-serif;
+                                color: #044754;
+                                text-align: center;
+                                letter-spacing: -.02em;}
+/* Neon Logo */
+                        .daniel{
+                                margin: 0;
+                                padding: 5px;
+                                display: flex;
+                                height: 7vh;
+                                background: #fff;
+                                font-family: "Snippet", cursive;}
+                        .daniel .span.a{
+                                margin: 0;
+                                padding: 0;
+                                color: #fff6dc;
+                                font-size: 16em;}
+                        .daniel .span.b{
+                                margin: 0;
+                                padding: 0;
+                                color: #fff6dc;
+                                font-size: 16em;}
+                        h1 .daniel{
+                                margin: 0;
+                                padding: 0;
+                                color: #fff6dc;
+                                font-size: 16em;}
+                        .daniel span{
+                                display: table-cell;
+                                margin: 0;
+                                padding: 0;
+                                animation: animate 2s linear;}
+                        .daniel span:nth-child(1){
+                                animation-delay: 0s;}
+                        .daniel span:nth-child(2){
+                                animation-delay: 0.25s;}
+                        .daniel span:nth-child(3){
+                                animation-delay: 0.5s;}
+                        .daniel span:nth-child(4){
+                                animation-delay: 0.75s;}
+                        .daniel span:nth-child(5){
+                                animation-delay: 1s;}
+                        .daniel span:nth-child(6){
+                                animation-delay: 1.25s;}
+                        .daniel span:nth-child(7){
+                                animation-delay: 1.5s;}
+                        .daniel span:nth-child(8){
+                                animation-delay: 1.75s;}
+        @keyframes animate{
+            0%, 100%{
+                color: #fff;
+                filter: blur(2px);
+                text-shadow:0 0 10px #fff,
+                            0 0 20px #fff,
+                            0 0 40px #fff,
+                            0 0 80px #fff,
+                            0 0 120px #fff,
+                            0 0 200px #fff,
+                            0 0 300px #fff,
+                            0 0 400px #fff;}
+            5%, 95%{
+                color: #fff;
+                filter: blur(0px);
+                text-shadow: none}}
+/* New Navbar */                                    
+                        body{
+                                margin: 0;
+                                padding: 0;
+                                font-family: 'Source Sans Pro', sans-serif;
+                                font-size: 1.25em;}
+                            
+                        nav{
+                                height: 75px;
+                                background: transparent;
+                            }
+                        .menu{
+                                position: relative;
+                                margin: 0 auto;
+                                width: 1000px;
+                                overflow: hidden;}
+                        .menu ul{
+                                width: 100%;
+                                margin: 0;
+                                padding: 0;
+                                display: flex;
+                                justify-content: space-between;}
+                        .menu ul li{ 
+                                list-style: none;}
+                        .menu ul li,
+                        .menu ul li a{
+                                color: #aec472;
+                                line-height: 44px;
+                                text-decoration: none;}
+                        .menu ul li a.menu-item{
+                                transform: scale(1);
+                                transition: 0.5s;
+                                display: block;}
+                        .menu ul li a.menu-item.hide-item{
+                                transform: scale(0);}
+                        .menu ul li:nth-child(2) a.menu-item.hide-item{
+                                transition-delay: 0.6s;}
+                        .menu ul li:nth-child(3) a.menu-item.hide-item{
+                                transition-delay: 0.5s;}
+                        .menu ul li:nth-child(4) a.menu-item.hide-item{
+                                transition-delay: 0.4s;}
+                        .menu ul li:nth-child(5) a.menu-item.hide-item{
+                                transition-delay: 0.3s;}
+                        .menu ul li:nth-child(6) a.menu-item.hide-item{
+                                transition-delay: 0.2s;}
+                        .menu ul li:nth-child(7) a.menu-item.hide-item{
+                                transition-delay: 0.1s;}
+                        .menu ul li:nth-child(8) a.menu-item.hide-item{
+                                transition-delay: 0s;}
+                        .menu ul li:nth-child(2) a.menu-item{
+                                transition-delay: 0s;}
+                        .menu ul li:nth-child(3) a.menu-item{
+                                transition-delay: 0.1s;}
+                        .menu ul li:nth-child(4) a.menu-item{
+                                transition-delay: 0.2s;}
+                        .menu ul li:nth-child(5) a.menu-item{
+                                transition-delay: 0.3s;}
+                        .menu ul li:nth-child(6) a.menu-item{
+                                transition-delay: 0.4s;}
+                        .menu ul li:nth-child(7) a.menu-item{
+                                transition-delay: 0.5s;}
+                        .menu ul li:nth-child(8) a.menu-item{
+                                transition-delay: 0.6s;}
+                        .search-form{
+                                position: absolute;
+                                top: 0;
+                                left: 50%;
+                                transform: translateX(0);
+                                width: 600px;
+                                height: 44px;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: 0.5s; }
+                        .search-form.active{
+                                opacity: 1;
+                                visibility:  visible;
+                                transition-delay: 0.5s;
+                                transform: translateX(-50%);}
+                        .search-form input{
+                                width: 100%;
+                                height: 44px;
+                                background: transparent;
+                                color: #aec472;
+                                border-bottom-color: #044754;
+                                border-left: none;
+                                border-top: none;
+                                border-right: none;
+                                outline: none;
+                                font-size: 16px;
+                                font-weight: bold;}
+                        .search-form input::placeholder{
+                                color: #044754;}
+                        .search-form:before{
+                                content: '\f002';
+                                position: absolute;
+                                top: 12px;
+                                left: -26px;
+                                font-size: 18px;
+                                color: #044754;
+                                font-family: fontAwesome;}
+                        .close{
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                height: 44px;
+                                background: #fff;
+                                color: #a6200d;
+                                line-height: 44px;
+                                font-size: 18px;
+                                text-align: right;
+                                width: 20px;
+                                cursor: pointer;
+                                opacity: 0;
+                                visibility: hidden;}
+                        .close.active{
+                                opacity: 1;
+                                visibility: visible;}
+                        .fa-search{
+                                color: #044754;}
+                        .fa-shopping-basket{
+                            color: #044754;}
+                        .fa-times{
+                            color: #044754;}
+                        
